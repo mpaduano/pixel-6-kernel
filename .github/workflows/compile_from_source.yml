@@ -13,9 +13,9 @@ jobs:
     timeout-minutes: 360
 
     env:
-      DEVICE: bluejay
-      KERNEL_BRANCH: android-gs-bluejay-6.1-android16
-      MANIFEST_URL: https://android.googlesource.com/kernel/manifest
+      DEVICE: 6a
+      KERNEL_BRANCH: blu_spark-16
+      MANIFEST_URL: https://github.com/engstk/gs
 
       KERNEL_DIR: android-kernel
       DIST_DIR: dist
