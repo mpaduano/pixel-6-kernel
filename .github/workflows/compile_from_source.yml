@@ -13,8 +13,8 @@ jobs:
     timeout-minutes: 360
 
     env:
-      DEVICE: oriole
-      KERNEL_BRANCH: android14-gs-pixel-6.1
+      DEVICE: bluejay
+      KERNEL_BRANCH: android-gs-bluejay-6.1-android16
       MANIFEST_URL: https://android.googlesource.com/kernel/manifest
 
       KERNEL_DIR: android-kernel
