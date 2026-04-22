@@ -17,7 +17,7 @@ jobs:
       KERNEL_BRANCH: android-gs-bluejay-6.1-android16
       MANIFEST_URL: https://android.googlesource.com/kernel/manifest
 
-      KERNEL_DIR: android-kernel
+      KERNEL_DIR: bluejay-kernel
       DIST_DIR: dist
 
     steps:
