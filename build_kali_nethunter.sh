@@ -11,7 +11,7 @@ mkdir "kali-nethunter-kernel"
 cd "kali-nethunter-kernel" || echo "Failed to change directory to kali-nethunter-kernel. Stopping" && exit 1
 
 repo init -u https://android.googlesource.com/kernel/manifest -b android-gs-bluejay-6.1-android16
-repo sync -c --no-tagsandroid-gs-bluejay-6.1-android16android-gs-bluejay-6.1-android16
+repo sync -c --no-tags
 
 git clone "https://github.com/fillwithjoy1/Kali-defconfig-checker"
 ./Kali-defconfig-checker/check-kernel-config ./private/gs-google/arch/arm64/configs/gki_defconfig -w
