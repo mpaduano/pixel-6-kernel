@@ -50,8 +50,8 @@ jobs:
       - name: Fetch other files needed 
         run: |
           cp util_functions.sh Magic
-          cd the-images
           unzip the-images.zip
+          cd the-images
           cd ..
           cp the-images/boot.img Magic
 
