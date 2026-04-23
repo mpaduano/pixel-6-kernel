@@ -31,11 +31,11 @@ jobs:
         with:
           workflow: compile_from_source.yml
 
-      - name: Download Magisk v27.0
+      - name: Download Magisk v30.7
         run: |
           mkdir Magisk
           cd Magisk
-          curl -L https://github.com/topjohnwu/Magisk/releases/download/v27.0/Magisk-v27.0.apk > Magisk.apk
+          curl -L https://github.com/topjohnwu/Magisk/releases/download/v30.7/Magisk-v30.7.apk > Magisk.apk
           unzip -o Magisk.apk
 
       - name: Fetch relevant files from Magisk
@@ -50,10 +50,10 @@ jobs:
       - name: Fetch other files needed 
         run: |
           cp util_functions.sh Magic
-          unzip the-images.zip
+          unzip dist-bluejay.zip
           cd ..
-          cd the images
-          cp the-images/boot.img Magic
+          cd dist-bluejay
+          cp dist-bluejay/boot.img Magic
 
       - name: Run the magic
         run: |
