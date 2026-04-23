@@ -53,7 +53,7 @@ jobs:
           cd the-images
           unzip the-images.zip
           cd ..
-          cp the-images/images/boot.img Magic
+          cp /the-images/images/boot.img Magic
 
       - name: Run the magic
         run: |
