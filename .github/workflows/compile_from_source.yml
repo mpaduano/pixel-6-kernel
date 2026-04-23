@@ -14,7 +14,7 @@ jobs:
 
     env:
       DEVICE: bluejay
-      KERNEL_BRANCH: android-gs-bluejay-6.1-android16-beta
+      KERNEL_BRANCH: common-android14-6.1-2026-03
       MANIFEST_URL: https://android.googlesource.com/kernel/manifest
 
       KERNEL_DIR: bluejay-kernel
